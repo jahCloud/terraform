@@ -22,7 +22,7 @@ variable "cidr_subnet" {
 
 variable "availability_zone" {
   description = "availability zone to create subnet"
-  default     = "us-east-2a"
+  default     = "eu-west-1a"
 }
 
 variable "public_key_path" {
